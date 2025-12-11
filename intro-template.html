@@ -1,29 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>地域のオススメスポット紹介</title>
+    <link rel="stylesheet" href="spot.css">
 </head>
 <body>
-    <div class="spot-title">
-        <h1>Aさんのおすすめ</h1>
+    <div class="nav">
+        <a href="index.html">Top</a>
+        <a href="spot-a.html">Aのスポット</a>
+        <a href="spot-b.html">Bのスポット</a>
+        <a href="spot-c.html">Cのスポット</a>
+        <a href="spot-d.html">Dのスポット</a>
     </div>
-    
-    <div class="box">
-        <div class="spot-image">
-            <h2>画像</h2>
+    <div class="page person">
+        <div class="spot-header">
+            <h1>Aさんのおすすめ</h1>
         </div>
-        <div class="spot-name">
-            <p>スポット名</p>
-            <p>スポットの簡単な説明</p>
+        <div class="box">
+            <div class="spot-image">
+                <img src="./temple.png" alt="">
+            </div>
+            <h2 class="spot-title">中尊寺 金色堂</h2>
+            <div class="spot-description">
+                <p>スポットの簡単な説明</p>
+            </div>
         </div>
-    </div>
-
-    <div class="detail">
-        <p>詳細</p>
-        <p>住所</p>
-        <p>営業時間</p>
+        <div class="spot-details">
+            <h3>詳細情報</h3>
+            <p class="detail-item">詳細</p>
+            <p class="detail-item">住所</p>
+            <p class="detail-item">営業時間</p>
+        </div>
     </div>
 </body>
 </html>
